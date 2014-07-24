@@ -1,0 +1,138 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+\documentclass[11pt]{article}
+%\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{lineno}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+\linespread{1.2}
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+\usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{plos2009}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+
+%% END MACROS SECTION
+
+\begin{document}
+
+% Title must be 150 characters or less
+\begin{flushleft}
+{\Large
+\textbf{The proper care and feeding of your transcriptome}
+} \\
+% Insert Author names, affiliations and corresponding author email.
+
+Richard Smith-Unna$^{1}$, 
+Matthew D MacManes $^{2}$, 
+\\
+
+
+\bf{1} University of Cambridge \\
+\bf{2} Department of Molecular, Cellular and Biomedical Sciences, University of New Hampshire, Durham NH, USA
+
+
+$\ast$ E-mail: macmanes@gmail.com, @PeroMHC
+\end{flushleft}
+
+\linenumbers
+
+% Please keep the abstract between 250 and 300 words
+\section*{Abstract}
+Some abstract
+
+
+\section*{Introduction}
+
+For biologists interested in understanding the relationship between fitness, genotype, and phenotype, modern sequencing technologies provide for an unprecedented opportunity to gain a deep understanding of genome level processes that together, underlie adaptation. Transcriptome sequencing has been particularly influential, mostly because of the relative ease with which they can be produced. This ease in construction, however, does not appropriately reflect the subtle (and not so subtle) methodological challenges associated with transcriptome reconstruction. Amongst the most challenging include isoform reconstruction, simultaneous assembly of low- and high-coverage transcripts, and [], which together make good transcriptome assembly really difficult. \\
+ 
+Methodological abuse is widespread. Particularly flagrant are abuses related to quality control of input data, the lack of understanding the role \textit{kmer} selection may play in accurate reconstruction, and lastly, abuses related to the lack of post-assembly quality evaluation. Here, we aim to define a set of evidence based analyses and methods aimed at improving transcriptome assembly, which in turn has significant effects on all downstream analyses. 
+
+To accomplish the proposed standardized methods, we have released a set of version controlled open-sourced code to facilitate this process.   
+
+\section*{Recommendations}
+
+\textsc{Input Data}: When planning to construct a transcriptome, the first question to ponder is the type and quantity of data required. While this will be somewhat determined by the specific goals of the study and availability of tissues, there are some general guiding principals. As of 2014, Illumina continues to offer the most flexibility in terms of throughout, analytical tractability, and cost. It is worth noting however, that long-read (e.g. PacBio) transcriptome sequencing is just beginning to emerge as an alternative, particularly for researchers interested in understanding  isoform complexity. \\
+
+For the typical transcriptome study, one should plan to generate a reference based on 1 or more tissue types. From each tissue, one should be generating between 50M and 100M strand-specific paired-end reads. Read length should be at least 100bp, with longer reads aiding in isoform reconstruction and contiguity. Because sequence polymorphism increases the complexity of the \textit{de bruijn} graph, and therefore may negatively effect the assembly itself, the reference transcriptome should be generated from reads corresponding to a single individual. When more then one individual is required to meet other requirements (e.g. number of reads), keeping the number of individuals to a minimum is paramount. \\
+
+\textsc{Quality Control of Sequence Read Data}: Before assembly, it is critical that appropriate quality control steps are implemented. It is often helpful to generate some metrics of read quality on the raw data. Though this step may well be fairly unrepresentative of the true dataset quality, it is often informative and instructive. Several software packages are available-- we are fond of SolexaQA and FastQC. These raw reads should be copied, compressed, and archived. \\
+
+After visualizing the raw data, a vigorous adapter trimming step is implemented, typically using Trimmomatic. With adapter trimming may be a quality trimming step, though caution is required, as aggressive trimming may have detrimental effects on assembly quality. Specifically, we recommend trimming at Phred=2, a threshold associated with removal of the lowest quality bases. After adapter and quality trimming, it is recommended to once again visualize the data using SolexaQC. The .gz compressed reads are now ready for assembly. \\
+
+\textsc{Assembly}: Assembly of transcriptome data is a ... Trinity is great, but is currently constrained to use a single kmer. In contrast, other assemblers (e.g. SOAPdenoveTrans) allows the used to select any value for k, which while increasing the time it takes to optimize assembly, may afford the ability to fine-tune the results, as well as implement a multi-kmer assembly approach. \\
+
+
+\textsc{Post-assembly transcriptome verification}: Basically die N50, focus on functional metrics, transrate, etc.. \\
+
+
+% You may title this section "Methods" or "Models". 
+% "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
+% authors may use "Analysis" 
+
+% Do NOT remove this, even if you are not including acknowledgments
+\section*{Acknowledgments}
+
+
+%\section*{References}
+% The bibtex filename
+\bibliography{formatted.bib}
+
+\section*{Figures}
+
+
+\section*{Tables}
+
+
+
+\end{document}
+
