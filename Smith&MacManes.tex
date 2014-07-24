@@ -8,7 +8,7 @@
 % latex plos.template
 % dvipdf plos.template
 \documentclass[11pt]{article}
-%\usepackage{natbib}
+\usepackage{natbib}
 \usepackage{hyperref}
 \usepackage{lineno}
 
@@ -93,7 +93,11 @@ Some abstract
 
 \section*{Introduction}
 
-For biologists interested in understanding the relationship between fitness, genotype, and phenotype, modern sequencing technologies provide for an unprecedented opportunity to gain a deep understanding of genome level processes that together, underlie adaptation. Transcriptome sequencing has been particularly influential, mostly because of the relative ease with which they can be produced. This ease in construction, however, does not appropriately reflect the subtle (and not so subtle) methodological challenges associated with transcriptome reconstruction. Amongst the most challenging include isoform reconstruction, simultaneous assembly of low- and high-coverage transcripts, and [], which together make good transcriptome assembly really difficult. \\
+For biologists interested in understanding the relationship between fitness, genotype, and phenotype, modern sequencing technologies provide for an unprecedented opportunity to gain a deep understanding of genome level processes that together, underlie adaptation. Transcriptome sequencing has been particularly influential, and as a direct result, a diverse toolset for the assembly and analysis of transcriptome exists. Notable amongst the wide array of tools include several for quality visualization (FastQC (\url{http://www.bioinformatics.babraham.ac.uk/projects/fastqc/}) and SolexaQA \citep{Cox:2010ch}) read trimming (e.g. Trimmomatic \citep{Bolger:2014ek} and Cutadapt \citep{Martin:2011va}), read normalization (khmer \citep{Pell:2012id}), assembly (Trinity \citep{Haas:2013jq}, SOAPdenovoTrans \citep{Xie:2013wu}) and assembly verificaton (transrate \url{https://github.com/Blahah/transrate} and RSEM-eval).  
+
+
+
+mostly because of the relative ease with which they can be produced. This ease in construction, however, does not appropriately reflect the subtle (and not so subtle) methodological challenges associated with transcriptome reconstruction. Amongst the most challenging include isoform reconstruction, simultaneous assembly of low- and high-coverage transcripts, and [], which together make good transcriptome assembly really difficult. \\
  
 Methodological abuse is widespread. Particularly flagrant are abuses related to quality control of input data, the lack of understanding the role \textit{kmer} selection may play in accurate reconstruction, and lastly, abuses related to the lack of post-assembly quality evaluation. Here, we aim to define a set of evidence based analyses and methods aimed at improving transcriptome assembly, which in turn has significant effects on all downstream analyses. 
 

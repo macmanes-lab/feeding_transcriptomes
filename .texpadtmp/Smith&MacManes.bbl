@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Cox:2010ch}
+Cox MP, Peterson DA, Biggs PJ (2010) {SolexaQA: At-a-glance quality assessment
+  of Illumina second-generation sequencing data}.
+\newblock BMC Bioinformatics 11: 485.
+\bibAnnoteFile{Cox:2010ch}
+
+\bibitem{Bolger:2014ek}
+Bolger AM, Lohse M, Usadel B (2014) {Trimmomatic: a flexible trimmer for
+  Illumina sequence data.}
+\newblock Bioinformatics (Oxford, England) 30: 2114--2120.
+\bibAnnoteFile{Bolger:2014ek}
+
+\bibitem{Martin:2011va}
+Martin M (2011) {Cutadapt removes adapter sequences from high-throughput
+  sequencing reads}.
+\newblock EMBnetjournal 17: pp. 10--12.
+\bibAnnoteFile{Martin:2011va}
+
+\bibitem{Pell:2012id}
+Pell J, Pell J, Hintze A, Hintze A, Canino-Koning R, et~al. (2012) {Scaling
+  metagenome sequence assembly with probabilistic \textit{de Bruijn} graphs.}
+\newblock Proceedings of the National Academy of Sciences 109: 13272--13277.
+\bibAnnoteFile{Pell:2012id}
+
+\bibitem{Haas:2013jq}
+Haas BJ, Papanicolaou A, Yassour M, Grabherr M, Blood PD, et~al. (2013)
+  {\textit{De novo} transcript sequence reconstruction from RNA-seq using the
+  Trinity platform for reference generation and analysis.}
+\newblock Nature protocols 8: 1494--1512.
+\bibAnnoteFile{Haas:2013jq}
+
+\bibitem{Xie:2013wu}
+Xie Y, Wu G, Tang J, Luo R, Patterson J, et~al. (2014) {SOAPdenovo-Trans:
+  \textit{de novo} transcriptome assembly with short RNA-Seq reads.}
+\newblock Bioinformatics (Oxford, England) 30: 1660--1666.
+\bibAnnoteFile{Xie:2013wu}
+
+\end{thebibliography}

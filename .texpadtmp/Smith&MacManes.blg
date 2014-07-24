@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Smith&MacManes.aux
+The style file: plos2009.bst
+Database file #1: formatted.bib.bib
+I was expecting a `,' or a `}'---line 25819 of file formatted.bib.bib
+ : 
+ : @article{Chesh:2012jd,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 43297 of file formatted.bib.bib
+ : 
+ : @article{Flatz:2010io,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 6 entries,
+            2441 wiz_defined-function locations,
+            583 strings with 6320 characters,
+and the built_in function-call counts, 5889 in all, are:
+= -- 550
+> -- 100
+< -- 0
++ -- 50
+- -- 25
+* -- 519
+:= -- 710
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 565
+empty$ -- 604
+format.name$ -- 30
+if$ -- 1300
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 67
+newline$ -- 45
+num.names$ -- 6
+pop$ -- 65
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 49
+stack$ -- 0
+substring$ -- 897
+swap$ -- 134
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 43
+width$ -- 7
+write$ -- 80
+(There were 2 error messages)
