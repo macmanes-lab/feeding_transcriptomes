@@ -1,6 +1,5 @@
 abstract.tex
 sectionIntroduction_.tex
-sectionRecommendatio.tex
 sectionAcknowledgmen.tex
 sectionFigures.tex
 sectionTables.tex
