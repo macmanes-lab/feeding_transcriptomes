@@ -1,6 +1,5 @@
 abstract.tex
 beginflushleft_Large.tex
-sectionAbstract_Some.tex
 sectionIntroduction_.tex
 sectionRecommendatio.tex
 sectionAcknowledgmen.tex
