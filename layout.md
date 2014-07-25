@@ -1,5 +1,4 @@
 abstract.tex
-beginflushleft_Large.tex
 sectionIntroduction_.tex
 sectionRecommendatio.tex
 sectionAcknowledgmen.tex
