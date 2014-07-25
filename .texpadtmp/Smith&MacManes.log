@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  24 JUL 2014 20:49
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  25 JUL 2014 07:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,22 +23,17 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count88
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -57,16 +52,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
 Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
@@ -79,30 +72,24 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen103
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count91
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -113,8 +100,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count92
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -141,32 +127,25 @@ Package hyperref Message: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box26
 \c@Hy@AnnotLevel=\count97
 \HyField@AnnotCount=\count98
 \Fld@listcount=\count99
 \c@bookmark@seq@number=\count100
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 (rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
+(rerunfilecheck)             Therefore file contents cannot be checked efficiently
 (rerunfilecheck)             and the loading of the package is aborted.
 )
 \Hy@SectionHShift=\skip45
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lineno/lineno.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
 \linenopenalty=\count101
@@ -184,25 +163,21 @@ Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
 \bframesep=\dimen111
 \bframebox=\box27
 LaTeX Info: Redefining \\ on input line 3056.
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen112
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen113
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count108
@@ -242,55 +217,42 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: xetex.def on input line 91.
-
-(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-def/xetex.def
+ (/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-def/xetex.def
 File: xetex.def 2013/04/29 v0.96 LaTeX color/graphics driver for XeTeX (RRM/JK)
-
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: xetex.def on input line 130.
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen123
@@ -303,14 +265,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count120
 Package caption Info: hyperref package is loaded.
-)
-(/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux
+) (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux
 
-/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux:
-37: Package natbib Error: Bibliography not compatible with author-year citation
-s.
+/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux:37: Package natbib Error: Bibliography not compatible with author-year citations.
 (natbib)                Press <return> to continue in numerical citation style.
-
 
 See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -344,8 +302,7 @@ LaTeX Font Info:    ... okay on input line 66.
 Package hyperref Info: Link coloring OFF on input line 66.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count121
@@ -353,11 +310,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
 LaTeX Info: Redefining \nameref on input line 66.
-
-(/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.out
-)
-(/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.out
-)
+ (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.out) (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.out)
 \@outlinefile=\write3
 \openout3 = `Smith&MacManes.out'.
 
@@ -368,39 +321,38 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 75.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `Li:2014er' on page 1 undefined on input line 
-98.
+Package natbib Warning: Citation `Li:2014er' on page 1 undefined on input line 96.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Package natbib Warning: Citation `Modrek:2001ud' on page 1 undefined on input line 98.
+
+
+Package natbib Warning: Citation `Johnson:2003kh' on page 1 undefined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+) [1
 
-Package natbib Warning: Citation `Modrek:2001ud' on page 1 undefined on input l
-ine 100.
-
-
-Package natbib Warning: Citation `Johnson:2003kh' on page 1 undefined on input 
-line 100.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
-)
-[1
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
@@ -421,39 +373,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-(/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.bbl
-)
+[2] (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
-
-(/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux
-)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 141.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+ (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
  10573 strings out of 493938
  150508 string characters out of 6148857
- 223574 words of memory out of 5000000
+ 224574 words of memory out of 5000000
  13806 multiletter control sequences out of 15000+600000
  11029 words of font info for 41 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,5n,38p,980b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,38p,980b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/S
-mith&MacManes.pdf (3 pages).
+Output written on /Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.pdf (3 pages).
