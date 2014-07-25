@@ -50,4 +50,10 @@ Xie Y, Wu G, Tang J, Luo R, Patterson J, et~al. (2014) {SOAPdenovo-Trans:
 \newblock Bioinformatics (Oxford, England) 30: 1660--1666.
 \bibAnnoteFile{Xie:2013wu}
 
+\bibitem{Au:2013hp}
+Au KF, Sebastiano V, Afshar PT, Durruthy JD, Lee L, et~al. (2013)
+  {Characterization of the human ESC transcriptome by hybrid sequencing.}
+\newblock PNAS 110: 201320101--30.
+\bibAnnoteFile{Au:2013hp}
+
 \end{thebibliography}

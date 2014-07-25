@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  24 JUL 2014 20:07
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  24 JUL 2014 20:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,7 +307,7 @@ Package caption Info: hyperref package is loaded.
 (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux
 
 /Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux:
-33: Package natbib Error: Bibliography not compatible with author-year citation
+37: Package natbib Error: Bibliography not compatible with author-year citation
 s.
 (natbib)                Press <return> to continue in numerical citation style.
 
@@ -316,7 +316,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...mand\NAT@force@numbers{}\NAT@force@numbers
+l.37 ...mand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -372,9 +372,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+Package natbib Warning: Citation `Li:2014er' on page 1 undefined on input line 
+98.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
+
+
+Package natbib Warning: Citation `Modrek:2001ud' on page 1 undefined on input l
+ine 100.
+
+
+Package natbib Warning: Citation `Johnson:2003kh' on page 1 undefined on input 
+line 100.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
@@ -420,8 +433,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
 (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.bbl
 )
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [3]
+[3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
 
 (/Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/Smith&MacManes.aux
@@ -431,13 +447,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 141.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 10566 strings out of 493938
- 150406 string characters out of 6148857
- 224574 words of memory out of 5000000
- 13800 multiletter control sequences out of 15000+600000
+ 10573 strings out of 493938
+ 150508 string characters out of 6148857
+ 223574 words of memory out of 5000000
+ 13806 multiletter control sequences out of 15000+600000
  11029 words of font info for 41 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,5n,38p,962b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,38p,980b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/macmanes/Documents/feeding_transcriptomes/.texpadtmp/S
 mith&MacManes.pdf (3 pages).
