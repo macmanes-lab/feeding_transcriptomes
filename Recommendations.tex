@@ -10,6 +10,10 @@ Before assembly, it is critical that appropriate quality control steps are imple
 
 After visualizing the raw data, a vigorous adapter trimming step is implemented, typically using Trimmomatic. With adapter trimming may be a quality trimming step, though caution is required, as aggressive trimming may have detrimental effects on assembly quality. Specifically, we recommend trimming at Phred=2, a threshold associated with removal of the lowest quality bases. After adapter and quality trimming, it is recommended to once again visualize the data using SolexaQC. The .gz compressed reads are now ready for assembly. \\
 
+\subsection{Error correction and coverage normalisation}
+- BayesHAMMER
+- Khmer
+
 \subsection{Assembly}
 Assembly of transcriptome data is a pain in the arse... Trinity is great, but is currently constrained to use a single kmer. Trinity, by far the most popular assembler (cite assembly survey?) is an opinionated pipeline with few modifiable parameters - the underlying algorithsm have been pre-optimised to recover large numbers of alternative isoforms. In many cases, Trinity will produce an excellent assembly. However, depending on the genomic makeup of the organism being sequenced, other assemblers may perform better. Other assemblers (e.g. SOAPdenovoTrans, Velvet/Oases and TransAbySS) allow the user to select any value for k, which while increasing the time it takes to optimize assembly, may afford the ability to fine-tune the results, as well as implement a multi-kmer assembly approach. We recommend always assembling with several different strategies and compariing the results. \\
 
