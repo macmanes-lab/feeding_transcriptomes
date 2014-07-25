@@ -1,0 +1,7 @@
+\section*{Recommendations}
+
+
+For the typical transcriptome study, one should plan to generate a reference based on 1 or more tissue types. From each tissue, one should be generating between 50M and 100M strand-specific paired-end reads. Read length should be at least 100bp, with longer reads aiding in isoform reconstruction and contiguity. Because sequence polymorphism increases the complexity of the \textit{de bruijn} graph, and therefore may negatively effect the assembly itself, the reference transcriptome should be generated from reads corresponding to a single individual. When more then one individual is required to meet other requirements (e.g. number of reads), keeping the number of individuals to a minimum is paramount. \\
+
+
+After visualizing the raw data, a vigorous adapter trimming step is implemented, typically using Trimmomatic. With adapter trimming may be a quality trimming step, though caution is required, as aggressive trimming may have detrimental effects on assembly quality. Specifically, we recommend trimming at Phred=2, a threshold associated with removal of the lowest quality bases. After adapter and quality trimming, it is recommended to once again visualize the data using SolexaQC. The .gz compressed reads are now ready for assembly. \\
