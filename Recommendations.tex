@@ -10,9 +10,11 @@ Before assembly, it is critical that appropriate quality control steps are imple
 
 After visualizing the raw data, error correction of the sequencing reads should be done \citep{MacManes:2013ec} using any of the available error correctors, though we have had success with both bless and BayesHAMMER \citep{Nikolenko:2013iu}. The error corrected reads are then subjected to a vigorous adapter trimming step is implemented, typically using Trimmomatic. With adapter trimming may be a quality trimming step, though caution is required, as aggressive trimming may have detrimental effects on assembly quality. Specifically, we recommend trimming at Phred=2 \citep{MacManes:2014io}, a threshold associated with removal of the lowest quality bases. After adapter and quality trimming, it is recommended to once again visualize the data using SolexaQC. The .gz compressed reads are now ready for assembly. \\
 
-\subsection{Error correction and coverage normalisation}
-- BayesHAMMER
-- Khmer
+\subsection{Coverage normalisation}
+
+Depending on the volumn of input data, the availability of a high-memory workstation, and the rapidity with which the assembly is needed, coverage normalization may be employed. This process, which [fill in some details about the specifics of the method], aims to erode areas of high coverage while leaving untouched reads spanning lower coverage areas, this reducung mean read coverage to a user specified level (typically 30-50X). This process, whose primary job is to reduce the amount of data going into the assembly, and thus reducing I/O, several other ancillary benefits may be realized. [talk about some of these off target effects]
+
+Normalization may be accomplished in khmer \citep{Pell:2012id}, or within Trinity using a computational algoritm based on khmer. [Fill in details here]
 
 \subsection{Assembly}
 Assembly of transcriptome data is a pain in the arse... Trinity is great, but is currently constrained to use a single kmer. Trinity, by far the most popular assembler (cite assembly survey?) is an opinionated pipeline with few modifiable parameters - the underlying algorithsm have been pre-optimised to recover large numbers of alternative isoforms. In many cases, Trinity will produce an excellent assembly. However, depending on the genomic makeup of the organism being sequenced, other assemblers may perform better. Other assemblers (e.g. SOAPdenovoTrans, Velvet/Oases and TransAbySS) allow the user to select any value for k, which while increasing the time it takes to optimize assembly, may afford the ability to fine-tune the results, as well as implement a multi-kmer assembly approach. We recommend always assembling with several different strategies and compariing the results. \\
