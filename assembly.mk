@@ -12,6 +12,11 @@ $(CURDIR)/20M_corr/10M.ec.P2/Trinity.fasta \
 $(CURDIR)/50M_corr/10M.ec.P2/Trinity.fasta \
 $(CURDIR)/75M_corr/10M.ec.P2/Trinity.fasta \
 $(CURDIR)/100M_corr/10M.ec.P2/Trinity.fasta \
+$(CURDIR)/10M.ec.P2.C50/Trinity.fasta \
+$(CURDIR)/20M.ec.P2.C50/Trinity.fasta \
+$(CURDIR)/50M.ec.P2.C50/Trinity.fasta \
+$(CURDIR)/75M.ec.P2.C50/Trinity.fasta \
+$(CURDIR)/100M.ec.P2.C50/Trinity.fasta
 
 CPU=48
 
@@ -60,8 +65,12 @@ $(CURDIR)/$(samp100)_corr/$(samp100)_corrk19.1.corrected.fastq.gz $(CURDIR)/$(sa
     --CPU $(CPU) --output $(samp100).ec.P2 \
     --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
+#######
+## Assemble Normalized samples.
+#######
 
-$(CURDIR)/$(samp10)_corr/$(samp10).ec.P2.C50/Trinity.fasta:\
+
+$(CURDIR)/$(samp10).ec.P2.C50/Trinity.fasta:\
 $(CURDIR)/$(samp10)_corr/$(samp10).corr.inter.norm.fastQ
 	Trinity --seqType fq --JM 50G --trimmomatic \
     --single $< \
@@ -69,7 +78,7 @@ $(CURDIR)/$(samp10)_corr/$(samp10).corr.inter.norm.fastQ
     --CPU $(CPU) --output $(samp10).ec.P2.C50 \
     --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
-$(CURDIR)/$(samp20)_corr/$(samp20).ec.P2.C50/Trinity.fasta:\
+$(CURDIR)/$(samp20).ec.P2.C50/Trinity.fasta:\
 $(CURDIR)/$(samp20)_corr/$(samp20).corr.inter.norm.fastQ
 	Trinity --seqType fq --JM 50G --trimmomatic \
     --single $< \
@@ -77,19 +86,26 @@ $(CURDIR)/$(samp20)_corr/$(samp20).corr.inter.norm.fastQ
     --CPU $(CPU) --output $(samp20).ec.P2.C50 \
     --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
+$(CURDIR)/$(samp50).ec.P2.C50/Trinity.fasta:\
+$(CURDIR)/$(samp50)_corr/$(samp50).corr.inter.norm.fastQ
+	Trinity --seqType fq --JM 50G --trimmomatic \
+    --single $< \
+    --run_as_paired \
+    --CPU $(CPU) --output $(samp50).ec.P2.C50 \
+    --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
+$(CURDIR)/$(samp75).ec.P2.C50/Trinity.fasta:\
+$(CURDIR)/$(samp75)_corr/$(samp75).corr.inter.norm.fastQ
+	Trinity --seqType fq --JM 50G --trimmomatic \
+    --single $< \
+    --run_as_paired \
+    --CPU $(CPU) --output $(samp75).ec.P2.C50 \
+    --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(CURDIR)/$(samp100).ec.P2.C50/Trinity.fasta:\
+$(CURDIR)/$(samp100)_corr/$(samp100).corr.inter.norm.fastQ
+	Trinity --seqType fq --JM 50G --trimmomatic \
+    --single $< \
+    --run_as_paired \
+    --CPU $(CPU) --output $(samp100).ec.P2.C50 \
+    --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
