@@ -7,11 +7,7 @@
 ############################################
 
 
-all:$(CURDIR)/10M_corr/10M.ec.P2/Trinity.fasta \
-$(CURDIR)/20M_corr/10M.ec.P2/Trinity.fasta \
-$(CURDIR)/50M_corr/10M.ec.P2/Trinity.fasta \
-$(CURDIR)/75M_corr/10M.ec.P2/Trinity.fasta \
-$(CURDIR)/100M_corr/10M.ec.P2/Trinity.fasta \
+all:\
 $(CURDIR)/10M.ec.P2.C50/Trinity.fasta \
 $(CURDIR)/20M.ec.P2.C50/Trinity.fasta \
 $(CURDIR)/50M.ec.P2.C50/Trinity.fasta \
