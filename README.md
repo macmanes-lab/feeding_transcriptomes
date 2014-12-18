@@ -6,7 +6,7 @@ Proper Care and Feeding of Your Transcriptome
 This is the home of our paper, *Proper Care and Feeding of Your Transcriptome*, by:
 
 - Richard Smith-Unna (@blahah)
-- Matt MacManes (@macmanes)
+- Matt MacManes (@PeroMHC)
 
 ## Description
 
