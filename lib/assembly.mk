@@ -65,6 +65,18 @@ $(CURDIR)/$(samp100).P2/Trinity.fasta:\
     --quality_trimming_params "ILLUMINACLIP:$(CURDIR)/barcodes.fa:2:40:15 LEADING:2 TRAILING:2 MINLEN:25"
 
 
+#######
+## Transrate Raw Samples samples.
+#######
+
+$(CURDIR)/transrate_raw/transrate.assemblies.csv:\
+$(CURDIR)/$(samp10).P2/Trinity.fasta $(CURDIR)/$(samp20).P2/Trinity.fasta $(CURDIR)/$(samp50).P2/Trinity.fasta $(CURDIR)/$(samp100).P2/Trinity.fasta
+    transrate -t 30 \
+    -a $<,$(word 2,$^),$(word 3,$^),$(word 4,$^)
+    -e ../Mus_musculus.GRCm38.pep.all.fa \
+    -l /mnt/data3/macmanes/feeding/SRR797058.P2_1P.fq \
+    -r /mnt/data3/macmanes/feeding/SRR797058.P2_2P.fq
+
 
 #######
 ## Assemble EC samples.
